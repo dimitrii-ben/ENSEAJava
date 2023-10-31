@@ -18,7 +18,7 @@ public class Student {
         return totalNumberOfStudents;
     }
     public String toString(){
-        return "[Student INFO]\n*First Name: "+ this.firstName+"\n*Last Name: "+this.lastName+"\n------------\nStudent cnt:"+Student.totalNumberOfStudents+"\n------------";
+        return "[Student INFO]\n*First Name: "+ this.firstName+"\n*Last Name: "+this.lastName+"\n------------\n";
     }
 
     public static void main(String[] args) {
